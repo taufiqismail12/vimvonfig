@@ -36,4 +36,8 @@ python3 powerline_setup()
 python3 del powerline_setup
 
 set laststatus=2
+" set filetypes as typescriptreact
+autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
+
+
 
