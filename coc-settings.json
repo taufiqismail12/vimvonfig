@@ -1,0 +1,14 @@
+{
+	"coc.preferences.formatOnSaveFiletypes": [
+		"typescript",
+		"json",
+		"html",
+		"css"
+	],
+	"coc.preferences.bracketEnterImprove": true,
+	"typescript.format.semicolons": "insert",
+	"typescript.format.enabled":true ,
+	"typescript.suggest.autoImports": true,
+	"json.format.enable": true,
+	"html.format.enable": true
+}

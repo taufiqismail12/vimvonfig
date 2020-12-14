@@ -1,0 +1,9 @@
+# Folder 
+autoload/*
+pack/*
+
+# File 
+*.swp
+
+
+

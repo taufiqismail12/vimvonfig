@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/grayzee/train/vim'
+let g:netrw_dirhist_2='/home/grayzee/train/typescript'
+let g:netrw_dirhist_1='/home/grayzee/train/vim'
+let g:netrw_dirhist_0='/home/grayzee'
+let g:netrw_dirhist_9='/home/grayzee/train/vim'
+let g:netrw_dirhist_8='/home/grayzee'
+let g:netrw_dirhist_7='/home/grayzee/train/vim'
+let g:netrw_dirhist_6='/home/grayzee/train'
+let g:netrw_dirhist_5='/home/grayzee'
+let g:netrw_dirhist_4='/home/grayzee/train'
