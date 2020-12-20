@@ -9,6 +9,10 @@ set termguicolors
 set encoding=utf-8
 set wildmenu
 
+" theme
+colorscheme atom-dark
+
+
 
 " enable filetype plugin
 filetype plugin on
@@ -27,17 +31,14 @@ set noswapfile
 set lbr
 set tw=500
 
-" theme
-colorscheme atom-dark
-
 " powerline setup
-python3 from powerline.vim import setup as powerline_setup
-python3 powerline_setup()
-python3 del powerline_setup
+" python3 from powerline.vim import setup as powerline_setup
+" python3 powerline_setup()
+" python3 del powerline_setup
 
 set laststatus=2
 " set filetypes as typescriptreact
-autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
+" autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
 
 
 

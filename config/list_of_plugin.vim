@@ -4,6 +4,8 @@ Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch':'release'}
 Plug 'ryanoasis/vim-devicons'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-Plug 'leafgarland/typescript-vim'
+"Plug 'leafgarland/typescript-vim'
 Plug 'peitalin/vim-jsx-typescript'
+Plug 'HerringtonDarkholme/yats'
+Plug 'vim-airline/vim-airline'
 call plug#end()

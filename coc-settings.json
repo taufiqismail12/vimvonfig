@@ -12,7 +12,6 @@
   "typescript.suggest.autoImports": true,
   "json.format.enable": true,
   "html.format.enable": true,
-  "eslint.autoFix": true,
-  "eslint.autoFixOnSave": true,
-  "prettier.eslintIntegration": true
+	"typescript.format.insertSpaceAfterConstructor": true,
+	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true
 }
