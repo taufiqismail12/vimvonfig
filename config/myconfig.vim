@@ -31,12 +31,7 @@ set noswapfile
 set lbr
 set tw=500
 
-" powerline setup
-" python3 from powerline.vim import setup as powerline_setup
-" python3 powerline_setup()
-" python3 del powerline_setup
-
-set laststatus=2
+"set laststatus=2
 " set filetypes as typescriptreact
 " autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
 
