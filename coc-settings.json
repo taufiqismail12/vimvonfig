@@ -6,12 +6,10 @@
     "html",
     "css"
   ],
-  "coc.preferences.bracketEnterImprove": true,
-  "typescript.format.semicolons": "insert",
-  "typescript.format.enabled": true,
   "typescript.suggest.autoImports": true,
   "json.format.enable": true,
   "html.format.enable": true,
-	"typescript.format.insertSpaceAfterConstructor": true,
-	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true
+  "eslint.autoFixOnSave": true,
+  "prettier.eslintIntegration": true
 }
+
