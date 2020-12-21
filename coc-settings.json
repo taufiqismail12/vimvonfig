@@ -9,6 +9,10 @@
   "typescript.suggest.autoImports": true,
   "json.format.enable": true,
   "html.format.enable": true,
+  "coc.preferences.bracketEnterImprove": true,
+  "typescript.format.enabled": true,
+  "typescript.format.semicolons": "insert",
+  "tsserver.formatOnType": false,
   "eslint.autoFixOnSave": true,
   "prettier.eslintIntegration": true
 }

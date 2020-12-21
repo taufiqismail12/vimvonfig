@@ -12,7 +12,7 @@ set wildmenu
 " theme
 colorscheme atom-dark
 
-
+set autoread
 
 " enable filetype plugin
 filetype plugin on
@@ -34,6 +34,3 @@ set tw=500
 set laststatus=2
 " set filetypes as typescriptreact
 " autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
-
-
-
