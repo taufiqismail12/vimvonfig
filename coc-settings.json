@@ -1,11 +1,6 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": [
-    "typescript",
-    "typescriptreact",
-    "json",
-    "html",
-    "css"
-  ],
+  "prettier.printWidth": 120,
+  "coc.preferences.formatOnSaveFiletypes": ["json", "html", "css"],
   "typescript.suggest.autoImports": true,
   "json.format.enable": true,
   "html.format.enable": true,
@@ -14,6 +9,8 @@
   "typescript.format.semicolons": "insert",
   "tsserver.formatOnType": false,
   "eslint.autoFixOnSave": true,
-  "prettier.eslintIntegration": true
+  "prettier.eslintIntegration": true,
+  "prettier.endOfLine": "lf",
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true
 }
 

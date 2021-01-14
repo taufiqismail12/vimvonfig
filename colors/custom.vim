@@ -16,7 +16,7 @@ if version > 580
         syntax reset
     endif
 endif
-let g:colors_name="atom-dark"
+let g:colors_name="custom"
 
 hi Boolean         guifg=#99CC99
 hi Character       guifg=#A8FF60
@@ -57,16 +57,16 @@ hi MoreMsg         guifg=#A8FF60
 hi Operator        guifg=#92C5F7
 
 " complete menu
-hi Pmenu           guifg=#66D9EF guibg=#000000
-hi PmenuSel                      guibg=#808080
-hi PmenuSbar                     guibg=#080808
-hi PmenuThumb      guifg=#66D9EF
-
-hi PreCondit       guifg=#DAD085               gui=none
-hi PreProc         guifg=#DAD085
-hi Question        guifg=#66D9EF
-hi Repeat          guifg=#92C5F7               gui=none
-hi Search          guifg=#000000 guibg=#B4EC85
+"hi Pmenu           guifg=#66D9EF guibg=#000000
+"hi PmenuSel                      guibg=#808080
+"hi PmenuSbar                     guibg=#080808
+"hi PmenuThumb      guifg=#66D9EF
+"
+"hi PreCondit       guifg=#DAD085               gui=none
+"hi PreProc         guifg=#DAD085
+"hi Question        guifg=#66D9EF
+"hi Repeat          guifg=#92C5F7               gui=none
+"hi Search          guifg=#000000 guibg=#B4EC85
 " marks
 hi SignColumn      guifg=#DAD085 guibg=#232526
 hi SpecialChar     guifg=#92C5F7               gui=none
@@ -93,7 +93,7 @@ hi Underlined      guifg=#808080               gui=underline
 
 hi VertSplit       guifg=#808080 guibg=#080808
 hi VisualNOS                     guibg=#403D3D
-hi Visual                        guibg=#403D3D
+"hi Visual                        guibg=#403D3D
 hi WarningMsg      guifg=#FFFFFF guibg=#333333
 hi WildMenu        guifg=#66D9EF guibg=#000000
 
@@ -110,7 +110,4 @@ hi LineNr          guifg=#465457 guibg=#232526
 hi NonText         guifg=#465457
 hi SpecialKey      guifg=#465457
 
-" Must be at the end, because of ctermbg=234 bug.
-" https://groups.google.com/forum/#!msg/vim_dev/afPqwAFNdrU/nqh6tOM87QUJ
-"set background=dark
 

@@ -8,4 +8,5 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'peitalin/vim-jsx-typescript'
 Plug 'HerringtonDarkholme/yats'
 Plug 'vim-airline/vim-airline'
+Plug 'arithran/vim-delete-hidden-buffers'
 call plug#end()
