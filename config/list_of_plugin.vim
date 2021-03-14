@@ -9,4 +9,6 @@ Plug 'peitalin/vim-jsx-typescript'
 Plug 'HerringtonDarkholme/yats'
 Plug 'vim-airline/vim-airline'
 Plug 'arithran/vim-delete-hidden-buffers'
+Plug 'leafgarland/typescript-vim'
+Plug 'peitalin/vim-jsx-typescript'
 call plug#end()
