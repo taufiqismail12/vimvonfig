@@ -1,6 +1,6 @@
 {
   "prettier.printWidth": 120,
-  "coc.preferences.formatOnSaveFiletypes": ["json", "html", "css"],
+  "coc.preferences.formatOnSaveFiletypes": ["json", "html", "css", "jsx", "tsx", "ts"],
   "typescript.suggest.autoImports": true,
   "json.format.enable": true,
   "html.format.enable": true,
@@ -11,5 +11,7 @@
   "eslint.autoFixOnSave": true,
   "prettier.eslintIntegration": true,
   "prettier.endOfLine": "lf",
-  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  "phpactor.enable": true,
+  "phpactor.path": "~/phpactor/bin/phpactor"
 }

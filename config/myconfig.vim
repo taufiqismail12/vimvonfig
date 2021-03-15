@@ -34,3 +34,6 @@ set tw=500
 set laststatus=2
 " set filetypes as typescriptreact
 " autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
+
+" coc-phpactor
+autocmd FileType php set iskeyword+=$
