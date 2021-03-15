@@ -1,16 +1,23 @@
 {
-  "prettier.printWidth": 120,
-  "coc.preferences.formatOnSaveFiletypes": ["json", "html", "css"],
+  "coc.preferences.formatOnSaveFiletypes": ["json", "html", "css, graphql"],
   "typescript.suggest.autoImports": true,
   "json.format.enable": true,
   "html.format.enable": true,
   "coc.preferences.bracketEnterImprove": true,
+  "tsserver.formatOnType": true,
   "typescript.format.enabled": true,
   "typescript.format.semicolons": "insert",
-  "tsserver.formatOnType": false,
+  "tsserver.disableAutomaticTypeAcquisition": false,
   "eslint.autoFixOnSave": true,
-  "prettier.eslintIntegration": true,
-  "prettier.endOfLine": "lf",
-  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  "eslint.packageManager": "yarn",
+  "eslint.nodePath": ".yarn/sdks",
+  "eslint.format.enable": true,
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod", ".vim/", ".git/", ".hg/"],
+      "filetypes": ["go"]
+    }
+  }
 }
-

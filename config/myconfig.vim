@@ -34,3 +34,15 @@ set tw=500
 set laststatus=2
 " set filetypes as typescriptreact
 " autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
+
+" vim air line themes
+let g:airline_theme='minimalist'
+
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\.git$\|\.yardoc\|node_modules\|log\|tmp$',
+  \ 'file': '\.so$\|\.dat$|\.DS_Store$'
+  \ }
+" vim go
+" let g:go_fmt_command = "goimports"
+let g:go_code_completion_enabled = 0
+" let g:go_def_mapping_enabled = 0
