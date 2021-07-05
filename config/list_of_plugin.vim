@@ -5,15 +5,20 @@ Plug 'neoclide/coc.nvim', {'branch':'release'}
 Plug 'ryanoasis/vim-devicons'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 "Plug 'leafgarland/typescript-vim'
-Plug 'peitalin/vim-jsx-typescript'
-Plug 'HerringtonDarkholme/yats'
+Plug 'peitalin/vim-jsx-typescript', {'for': ['javascript','typescript','ts','jsx','tsx']}
+Plug 'HerringtonDarkholme/yats', {'for' : ['ts','tsx']}
 Plug 'vim-airline/vim-airline'
 Plug 'arithran/vim-delete-hidden-buffers'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'yggdroot/indentline'
+Plug 'yggdroot/indentline', {'for': ['javacript', 'typescript','ts','jsx','tsx']}
 Plug 'tpope/vim-fugitive'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'jparise/vim-graphql'
 Plug 'christoomey/vim-system-copy'
 Plug 'maxmellon/vim-jsx-pretty'
+Plug 'junegunn/fzf.vim'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'jstemmer/gotags'
+Plug 'majutsushi/tagbar'
+
 call plug#end()

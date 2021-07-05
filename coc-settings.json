@@ -1,5 +1,5 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["json", "html", "css, graphql"],
+  "coc.preferences.formatOnSaveFiletypes": ["json", "html", "css"],
   "typescript.suggest.autoImports": true,
   "json.format.enable": true,
   "html.format.enable": true,
