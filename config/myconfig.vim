@@ -3,14 +3,14 @@ set tabstop=4
 set shiftwidth=4
 
 " Set visual
-syntax enable
+syntax on
 set number
-set termguicolors
+"set termguicolors
 set encoding=utf-8
 set wildmenu
 
 " theme
-colorscheme atom-dark
+colorscheme onedark
 
 set autoread
 
@@ -26,7 +26,7 @@ set nobackup
 set nowb
 set noswapfile
 
-
+" let g:airline_theme='simple'
 " Linebreak on 500 characters
 set lbr
 set tw=500
@@ -37,3 +37,12 @@ set laststatus=2
 
 " coc-phpactor
 autocmd FileType php set iskeyword+=$
+autocmd BufRead,bufwritepost *.php :Phplint
+autocmd BufWritePost *.php silent! call PhpCsFixerFixFile()
+
+nmap <F8> :TagbarToggle<CR>
+set mouse=a
+nmap <Leader>t :below terminal<CR>
+let g:gitgutter_set_sign_backgrounds = 1
+let b:coc_git_status = 1
+set signcolumn=auto

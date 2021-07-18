@@ -22,4 +22,16 @@ Installation
 - `coc-phpactor` (for php)
 - `coc-html`
 - `coc-prettier`
+- `coc-pyright` (for python)
+
+## PHP Actor
+ 
+## PHP CS Fixer
+To add php-cs-fixer
+
+create directory to save .phar file
+download [here](https://cs.symfony.com/download/php-cs-fixer-v2.phar)
+
+## Python
+install pip for python3, you can google it
 
