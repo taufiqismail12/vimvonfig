@@ -12,3 +12,24 @@ autocmd BufWinEnter * silent NERDTreeMirror
 
 " Mirror the NERDTree before showing it. This makes it the same on all tabs.
 nnoremap <C-n> :NERDTreeMirror<CR>:NERDTreeFocus<CR>
+
+let g:NERDTreeGitStatusUseNerdFonts = 1
+let g:NERDTreeGitStatusConcealBrackets = 1
+let g:NERDTreeGitStatusShowClean = 1
+"let g:NERDTreeGitStatusUntrackedFilesMode = 'all'
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
+"let NERDTreeAutoDeleteBuffer = 1
+"let NERDTreeQuitOnOpen = 1
+""let g:NERDTreeGitStatusIndicatorMapCustom = {
+"                \ 'Modified'  :'✹',
+"                \ 'Staged'    :'✚',
+"                \ 'Untracked' :'✭',
+"                \ 'Renamed'   :'➜',
+"                \ 'Unmerged'  :'═',
+"                \ 'Deleted'   :'✖',
+"                \ 'Dirty'     :'✗',
+"                \ 'Ignored'   :'☒',
+"                \ 'Clean'     :'✔︎',
+"                \ 'Unknown'   :'?',
+"                \ }

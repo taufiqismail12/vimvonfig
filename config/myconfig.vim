@@ -10,7 +10,7 @@ set encoding=utf-8
 set wildmenu
 
 " theme
-colorscheme atom-dark
+colorscheme sierra
 
 set autoread
 
@@ -36,7 +36,9 @@ set laststatus=2
 " autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
 
 " vim air line themes
-let g:airline_theme='minimalist'
+let g:airline_theme='sierra'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#formatter = 'unique_tail'
 
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.yardoc\|node_modules\|log\|tmp$',
@@ -46,6 +48,16 @@ let g:ctrlp_custom_ignore = {
 " let g:go_fmt_command = "goimports"
 " let g:go_code_completion_enabled = 0
 " let g:go_def_mapping_enabled = 0
+" let g:go_bin_path = $HOME."/go/bin"
 
 nnoremap <silent> <C-f> :Files<CR>
 set mouse=a
+" folding
+set foldmethod=indent
+set foldnestmax=10
+set nofoldenable
+set foldlevel=2
+set signcolumn=auto
+"Transparant Background
+nmap <F10>:hi Normal guibg=NONE ctermbg=NONE<CR>
+nmap <F8> :TagbarToggle<CR>
