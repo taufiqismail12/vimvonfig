@@ -10,6 +10,7 @@ set encoding=utf-8
 set wildmenu
 
 " theme
+let g:sierra_Pitch = 1
 colorscheme sierra
 
 set autoread
@@ -44,19 +45,14 @@ let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.yardoc\|node_modules\|log\|tmp$',
   \ 'file': '\.so$\|\.dat$|\.DS_Store$'
   \ }
-" vim go
-" let g:go_fmt_command = "goimports"
-" let g:go_code_completion_enabled = 0
-" let g:go_def_mapping_enabled = 0
-" let g:go_bin_path = $HOME."/go/bin"
 
-nnoremap <silent> <C-f> :Files<CR>
 set mouse=a
 " folding
-set foldmethod=indent
+set foldmethod=syntax
 set foldnestmax=10
 set nofoldenable
 set foldlevel=2
+
 set signcolumn=auto
 "Transparant Background
 nmap <F10>:hi Normal guibg=NONE ctermbg=NONE<CR>

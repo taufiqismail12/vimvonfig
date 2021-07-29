@@ -22,5 +22,7 @@ call plug#end()
 
 source ~/.vim/config/plugin/coc.config.vim
 source ~/.vim/config/plugin/nerdtree.config.vim
+source ~/.vim/config/plugin/fzf.config.vim
+source ~/.vim/config/plugin/vim-go.vim
 source ~/.vim/config/plugin/go-tags.config.vim
 source ~/.vim/config/myconfig.vim
