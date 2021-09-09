@@ -10,8 +10,9 @@ set encoding=utf-8
 set wildmenu
 
 " theme
-let g:sierra_Pitch = 1
-colorscheme sierra
+"let g:sierra_Pitch = 1
+colorscheme everforest 
+let g:everforest_transparent_background = 1
 
 set autoread
 
@@ -32,12 +33,12 @@ set noswapfile
 set lbr
 set tw=500
 
-set laststatus=2
+set laststatus=1
 " set filetypes as typescriptreact
 " autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
 
 " vim air line themes
-let g:airline_theme='sierra'
+"let g:airline_theme='pablo'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 
@@ -54,6 +55,4 @@ set nofoldenable
 set foldlevel=2
 
 set signcolumn=auto
-"Transparant Background
-nmap <F10>:hi Normal guibg=NONE ctermbg=NONE<CR>
-nmap <F8> :TagbarToggle<CR>
+nmap <F1> :TagbarToggle<CR>

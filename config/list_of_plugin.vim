@@ -18,11 +18,15 @@ Plug 'majutsushi/tagbar'
 Plug 'scrooloose/nerdtree-project-plugin'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
+Plug 'heavenshell/vim-jsdoc', { 'for': ['javascript', 'javascript.jsx','typescript'], 'do': 'make install'}
+"Plug 'jparise/vim-graphql'
 call plug#end()
 
+source ~/.vim/config/myconfig.vim
 source ~/.vim/config/plugin/coc.config.vim
 source ~/.vim/config/plugin/nerdtree.config.vim
 source ~/.vim/config/plugin/fzf.config.vim
+source ~/.vim/config/plugin/indent-line.config.vim
+source ~/.vim/config/plugin/jsdoc.config.vim
 source ~/.vim/config/plugin/vim-go.vim
 source ~/.vim/config/plugin/go-tags.config.vim
-source ~/.vim/config/myconfig.vim
