@@ -17,7 +17,9 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'majutsushi/tagbar'
 Plug 'yaegassy/coc-intelephense', {'do': 'yarn install --frozen-lockfile'}
-"Plug 'fatih/vim-go'
+Plug 'fatih/vim-go'
+"Plug 'SirVer/ultisnips'
+"Plug 'honza/vim-snippets'
 "Plug 'kkoomen/vim-doge', {'do' : { -> doge#install() } }
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'

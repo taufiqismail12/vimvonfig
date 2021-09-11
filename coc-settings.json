@@ -16,9 +16,27 @@
 	"coc.preferences.bracketEnterImprove": true,
 	"coc.preferences.useQuickfixForLocations": true,
 	"coc.preferences.colorSupport": true,
-	"html.enable": true,
+	"languageserver": {
+		"golang": {
+			"command": "gopls",
+			"rootPatterns": [
+				"go.mod"
+			],
+			"filetypes": [
+				"go"
+			]
+		}
+	},
+	"go.goplsOptions": {
+		"staticcheck": true
+	},
 	"json.format.enable": true,
-	"html.format.enable": true,
+	"git.addGBlameToBufferVar": true,
+	"git.addedSign.hlGroup": "GitGutterAdd",
+	"git.changedSign.hlGroup": "GitGutterChange",
+	"git.removedSign.hlGroup": "GitGutterDelete",
+	"git.topRemovedSign.hlGroup": "GitGutterDelete",
+	"git.changeRemovedSign.hlGroup": "GitGutterChangeDelete",
 	"javascript.format.enabled": true,
 	"eslint.codeActionsOnSave.mode": "all",
 	"eslint.packageManager": "yarn",
@@ -30,11 +48,4 @@
 	"prettier.parser": "typescript",
 	"typescript.format.enabled": true,
 	"python.format.enable": true,
-	"git.addGBlameToVirtualTex": true,
-	"git.addGBlameToBufferVar": true,
-	"git.addedSign.hlGroup": "GitGutterAdd",
-	"git.changedSign.hlGroup": "GitGutterChange",
-	"git.removedSign.hlGroup": "GitGutterDelete",
-	"git.topRemovedSign.hlGroup": "GitGutterDelete",
-	"git.changeRemovedSign.hlGroup": "GitGutterChangeDelete"
 }
