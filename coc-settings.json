@@ -1,4 +1,13 @@
 {
+	"suggest.autoTrigger": "always",
+	"suggest.noselect": true,
+	"suggest.detailField": "menu",
+	"suggest.floatEnable": true,
+	"suggest.enablePreview": true,
+	"suggest.snippetIndicator": "~",
+	"suggest.fixInsertedWord": true,
+	"coc.preferences.enableMessageDialog": true,
+	"codeLens.enable": true,
 	"coc.preferences.formatOnSaveFiletypes": [
 		"php",
 		"json",

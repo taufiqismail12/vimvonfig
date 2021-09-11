@@ -18,7 +18,7 @@ let g:go_fmt_command = "goimports"
 " Status line types/signatures
 "let g:go_auto_type_info = 1	
 "Snippets
-let g:UltiSnipsExpandTrigger="<tab><tab>"
+let g:UltiSnipsExpandTrigger="<s-tab>"
 " list all snippets for current filetype
 let g:UltiSnipsListSnippets="<c-l>""
 let g:go_metalinter_autosave = 1

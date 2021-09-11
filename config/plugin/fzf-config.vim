@@ -1,2 +1,2 @@
 nnoremap <silent> <C-p> :Files<CR>
-nnoremap <silent> <C-f> :Rg<CR>
+nmap <silent> <C-f> :Rg<CR>
