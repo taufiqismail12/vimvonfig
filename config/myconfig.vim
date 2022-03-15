@@ -11,7 +11,7 @@ set wildmenu
 
 " theme
 "let g:sierra_Pitch = 1
-colorscheme everforest 
+colorscheme atom-dark
 let g:everforest_transparent_background = 1
 
 set autoread
@@ -56,3 +56,4 @@ set foldlevel=2
 
 set signcolumn=auto
 nmap <F1> :TagbarToggle<CR>
+let g:UltiSnipsExpandTrigger = "<nop>"

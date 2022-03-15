@@ -10,6 +10,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'arithran/vim-delete-hidden-buffers'
 Plug 'yggdroot/indentline', {'for': ['javacript', 'typescript','ts','jsx','tsx','go']}
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'rfratto/vim-ginkgo-test'
 Plug 'maxmellon/vim-jsx-pretty'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -19,7 +20,10 @@ Plug 'scrooloose/nerdtree-project-plugin'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'heavenshell/vim-jsdoc', { 'for': ['javascript', 'javascript.jsx','typescript'], 'do': 'make install'}
+Plug 'sainnhe/everforest'
+Plug 'SirVer/ultisnips'
 "Plug 'jparise/vim-graphql'
+Plug 'buoto/gotests-vim'
 call plug#end()
 
 source ~/.vim/config/myconfig.vim
