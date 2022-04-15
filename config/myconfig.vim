@@ -32,8 +32,8 @@ set lbr
 set tw=500
 
 set laststatus=2
-" set filetypes as typescriptreact
-" autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
+"set filetypes as typescriptreact
+autocmd BufNewFile,BufRead *.tsx,*.jsx set filetype=typescriptreact
 
 " coc-phpactor
 autocmd FileType php set iskeyword+=$
@@ -47,4 +47,4 @@ let g:gitgutter_set_sign_backgrounds = 1
 let b:coc_git_status = 1
 set signcolumn=auto
 
-hi Normal guibg=NONE ctermbg=NONE
+"hi Normal guibg=NONE ctermbg=NONE

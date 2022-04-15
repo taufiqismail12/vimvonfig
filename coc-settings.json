@@ -1,60 +1,53 @@
 {
-	"suggest.autoTrigger": "always",
-	"suggest.noselect": true,
-	"suggest.detailField": "menu",
-	"suggest.floatEnable": true,
-	"suggest.enablePreview": true,
-	"suggest.snippetIndicator": "~",
-	"suggest.fixInsertedWord": true,
-	"coc.preferences.enableMessageDialog": true,
-	"codeLens.enable": true,
-	"coc.preferences.formatOnSaveFiletypes": [
-		"php",
-		"json",
-		"html",
-		"css",
-		"js",
-		"jsx",
-		"tsx",
-		"ts",
-		"typescriptreact",
-		"py",
-		"python"
-	],
-	"coc.preferences.listOfWorkspaceEdit": "quickfix",
-	"coc.preferences.bracketEnterImprove": true,
-	"coc.preferences.useQuickfixForLocations": true,
-	"coc.preferences.colorSupport": true,
-	"languageserver": {
-		"golang": {
-			"command": "gopls",
-			"rootPatterns": [
-				"go.mod"
-			],
-			"filetypes": [
-				"go"
-			]
-		}
-	},
-	"go.goplsOptions": {
-		"staticcheck": true
-	},
-	"json.format.enable": true,
-	"git.addGBlameToBufferVar": true,
-	"git.addedSign.hlGroup": "GitGutterAdd",
-	"git.changedSign.hlGroup": "GitGutterChange",
-	"git.removedSign.hlGroup": "GitGutterDelete",
-	"git.topRemovedSign.hlGroup": "GitGutterDelete",
-	"git.changeRemovedSign.hlGroup": "GitGutterChangeDelete",
-	"javascript.format.enabled": true,
-	"eslint.codeActionsOnSave.mode": "all",
-	"eslint.packageManager": "yarn",
-	"eslint.run": "onSave",
-	"eslint.alwaysShowStatus": true,
-	"eslint.autoFixOnSave": true,
-	"prettier.printWidth": 120,
-	"prettier.eslintIntegration": true,
-	"prettier.parser": "typescript",
-	"typescript.format.enabled": true,
-	"python.format.enable": true,
+  "suggest.autoTrigger": "always",
+  "suggest.noselect": true,
+  "suggest.detailField": "menu",
+  "suggest.floatEnable": true,
+  "suggest.enablePreview": true,
+  "suggest.snippetIndicator": "~",
+  "suggest.fixInsertedWord": true,
+  "coc.preferences.enableMessageDialog": true,
+  "codeLens.enable": true,
+  "python.linting.lintOnSave": true,
+  "coc.preferences.formatOnSaveFiletypes": [
+    "php",
+    "json",
+    "html",
+    "css",
+    "js",
+    "jsx",
+    "tsx",
+    "ts",
+    "typescriptreact",
+    "py",
+    "python"
+  ],
+  "coc.preferences.listOfWorkspaceEdit": "quickfix",
+  "coc.preferences.bracketEnterImprove": true,
+  "coc.preferences.useQuickfixForLocations": true,
+  "coc.preferences.colorSupport": true,
+  "languageserver": {
+    "golang": {
+      "command": "gopls",
+      "rootPatterns": ["go.mod"],
+      "filetypes": ["go"]
+    }
+  },
+  "json.format.enable": true,
+  "git.addGBlameToBufferVar": true,
+  "git.addedSign.hlGroup": "GitGutterAdd",
+  "git.changedSign.hlGroup": "GitGutterChange",
+  "git.removedSign.hlGroup": "GitGutterDelete",
+  "git.topRemovedSign.hlGroup": "GitGutterDelete",
+  "git.changeRemovedSign.hlGroup": "GitGutterChangeDelete",
+  "javascript.format.enabled": true,
+  "eslint.codeActionsOnSave.mode": "all",
+  "eslint.packageManager": "yarn",
+  "eslint.run": "onSave",
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
+  "prettier.printWidth": 120,
+  "typescript.format.enabled": true,
+  "python.formatting.provider": "black",
+  "python.formatting.blackPath": "~/.local/bin/black"
 }

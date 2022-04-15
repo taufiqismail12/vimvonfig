@@ -1,11 +1,10 @@
 call plug#begin('~/.vim/pack')
-
 Plug 'preservim/nerdtree'
 Plug 'neoclide/coc.nvim', {'branch':'release'}
 Plug 'ryanoasis/vim-devicons'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-"Plug 'peitalin/vim-jsx-typescript'
-"Plug 'HerringtonDarkholme/yats'
+Plug 'peitalin/vim-jsx-typescript'
+Plug 'HerringtonDarkholme/yats'
 Plug 'arithran/vim-delete-hidden-buffers'
 "Plug 'phpactor/phpactor', {'for': 'php', 'tag': '*', 'do': 'composer install --no-dev -o'}
 Plug 'stephpy/vim-php-cs-fixer'
@@ -23,6 +22,8 @@ Plug 'honza/vim-snippets'
 "Plug 'kkoomen/vim-doge', {'do' : { -> doge#install() } }
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
+"Plug 'yardnsm/vim-import-cost', { 'do': 'npm install --production' }
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 call plug#end()
 
 
@@ -33,3 +34,4 @@ source ~/.vim/config/plugin/vim-go.vim
 source ~/.vim/config/plugin/vim-doge.vim
 source ~/.vim/config/plugin/vim-airline.vim
 source ~/.vim/config/plugin/fzf-config.vim
+"source ~/.vim/config/plugin/import-cost.vim
