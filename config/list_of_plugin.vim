@@ -24,6 +24,8 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-fugitive'
 "Plug 'yardnsm/vim-import-cost', { 'do': 'npm install --production' }
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+"Plug 'yaegassy/coc-graphql', {'do': 'yarn install --frozen-lockfile'}
+Plug 'jparise/vim-graphql'
 call plug#end()
 
 

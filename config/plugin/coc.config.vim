@@ -165,3 +165,4 @@ nmap ,i :CocCommand tsserver.organizeImports<cr>
 " lightline
 "set statusline^=%{get(g:,'coc_git_status','')}%{get(b:,'coc_git_status','')}%{get(b:,'coc_git_blame','')}
 
+autocmd BufWritePre .js,.jsx,.mjs,.ts,.tsx,.css,.less,.scss,.graphql,.gql,.md,.vue,.graphqls Prettier
