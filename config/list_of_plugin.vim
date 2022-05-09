@@ -20,8 +20,8 @@ Plug 'scrooloose/nerdtree-project-plugin'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'heavenshell/vim-jsdoc', { 'for': ['javascript', 'javascript.jsx','typescript'], 'do': 'make install'}
-Plug 'sainnhe/everforest'
 Plug 'SirVer/ultisnips'
+Plug 'sainnhe/everforest'
 "Plug 'jparise/vim-graphql'
 Plug 'buoto/gotests-vim'
 call plug#end()
@@ -34,3 +34,4 @@ source ~/.vim/config/plugin/indent-line.config.vim
 source ~/.vim/config/plugin/jsdoc.config.vim
 source ~/.vim/config/plugin/vim-go.vim
 source ~/.vim/config/plugin/go-tags.config.vim
+source ~/.vim/config/plugin/vim-airline.vim
