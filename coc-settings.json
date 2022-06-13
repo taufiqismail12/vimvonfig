@@ -9,7 +9,8 @@
     "py",
     "python",
 	"typescript",
-	"typescriptreact"
+	"typescriptreact",
+	"graphqls"
   ],
   "typescript.suggest.autoImports": true,
   "typescript.referencesCodeLens.enable": true,

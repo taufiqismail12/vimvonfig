@@ -11,8 +11,8 @@ set wildmenu
 
 " theme
 "let g:sierra_Pitch = 1
-colorscheme atom-dark 
-let g:everforest_transparent_background = 1
+colorscheme codedark
+"let g:everforest_transparent_background = 1
 
 set autoread
 

@@ -16,11 +16,12 @@ Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'jstemmer/gotags'
 Plug 'majutsushi/tagbar'
-Plug 'scrooloose/nerdtree-project-plugin'
+"Plug 'scrooloose/nerdtree-project-plugin'
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'heavenshell/vim-jsdoc', { 'for': ['javascript', 'javascript.jsx','typescript'], 'do': 'make install'}
 Plug 'SirVer/ultisnips'
+Plug 'tomasiser/vim-code-dark'
 Plug 'sainnhe/everforest'
 "Plug 'jparise/vim-graphql'
 Plug 'buoto/gotests-vim'
