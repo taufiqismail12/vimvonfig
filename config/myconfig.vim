@@ -11,8 +11,8 @@ set wildmenu
 
 " theme
 "let g:sierra_Pitch = 1
-colorscheme codedark
-"let g:everforest_transparent_background = 1
+colorscheme everforest
+let g:everforest_transparent_background = 1
 
 set autoread
 
@@ -57,3 +57,17 @@ set foldlevel=2
 set signcolumn=auto
 nmap <F1> :TagbarToggle<CR>
 let g:UltiSnipsExpandTrigger = "<nop>"
+" transparent background
+" hi Normal guibg=NONE ctermbg=NONE
+
+" auto save session 
+function! MakeSession()
+  let b:sessiondir = getcwd()
+  let b:filename = b:sessiondir . '/session.vim'
+  exe "mksession! " . b:filename
+  exe "edit! " . b:filename
+  exe "g:^cd :d"
+  exe "x" 
+endfunction
+
+"autocmd BufWinLeave * :mksession ~/.session/$(pwd)

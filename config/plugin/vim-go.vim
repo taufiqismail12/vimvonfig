@@ -17,3 +17,9 @@ let g:go_highlight_generate_tags = 1
  
 "au filetype go inoremap <buffer> . .<C-x><C-o>
 let $GINKGO_EDITOR_INTEGRATION = "true"
+
+let g:go_debug_windows = {
+      \ 'vars':       'rightbelow 50vnew',
+      \ 'stack':      'rightbelow 10new',
+      \ }
+      " \ 'goroutines':      'rightbelow 10new',
